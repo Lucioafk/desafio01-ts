@@ -9,7 +9,7 @@ console.log('Nome da conta: ', peopleAccount.getName());
 console.log('Numero da conta: ', peopleAccount.getAccountNumber());
 console.log('Saldo final: ', peopleAccount.getBalance());
 
-console.log('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+console.log('===================================');
 
 const companyAccount = new CompanyAccount('DIOSoftware', 2020)
 companyAccount.deposit(30)
@@ -20,7 +20,7 @@ console.log('Nome da conta: ', companyAccount.getName());
 console.log('Numero da conta: ', companyAccount.getAccountNumber());
 console.log('Saldo Final: ', companyAccount.getBalance());
 
-console.log('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+console.log('===================================');
 
 const TypeAccount = new newAccount('Novo Tipo', 1000)
 TypeAccount.deposit(40)
